@@ -1,5 +1,3 @@
-// FILE: backend/package.json
-// npm install to set up all backend dependencies
 {
   "name": "nifes-awka-backend",
   "version": "1.0.0",
