@@ -36,6 +36,18 @@ import nacfRoutes from './routes/nacf.routes';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+app.get("/", (req, res) => {
+  res.json({
+    name: "NIFES Awka Zone API",
+    status: "running",
+    message: "Welcome to the NIFES Awka backend service",
+    version: "1.0.0",
+    endpoints: {
+      health: "/health"
+    }
+  });
+});
+
 // ── Security middleware ──
 // Helmet sets secure HTTP headers
 app.use(helmet());
