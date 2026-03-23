@@ -1,9 +1,8 @@
 // FILE: frontend/tailwind.config.ts
 // PURPOSE: Custom Tailwind theme for NIFES Awka Zone brand
 
-import type { Config } from 'tailwindcss';
-
-const config: Config = {
+// tailwind.config.js
+const config = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -55,4 +54,4 @@ const config: Config = {
   plugins: [],
 };
 
-export default config;
+module.exports = config;
