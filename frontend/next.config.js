@@ -16,7 +16,7 @@ const nextConfig = {
   // Rewrite /api/* to backend during development
   async rewrites() {
     return process.env.NODE_ENV === 'development'
-      ? [{ source: '/backend/:path*', destination: 'http://localhost:4000/api/:path*' }]
+      ? [{ source: '/backend/:path*', destination: 'https://nifes-awka.onrender.com*' }]
       : [];
   },
 };
