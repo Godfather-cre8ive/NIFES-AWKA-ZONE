@@ -1,9 +1,7 @@
 // FILE: frontend/next.config.ts
 // PURPOSE: Next.js configuration — image domains, API rewrites
 
-/**import type { NextConfig } from 'next';**/
-
-const nextConfig: = {
+const nextConfig = {
   // Allow images from these external domains
   images: {
     remotePatterns: [
