@@ -26,6 +26,9 @@ router.post('/login', async (req, res) => {
     .eq('email', email.toLowerCase().trim())
     .single();
 
+  console.log("ADMIN:", admin);
+console.log("ERROR:", error);
+  
   if (error || !admin) {
     return res.status(401).json({ error: 'Invalid credentials.' });
   }
