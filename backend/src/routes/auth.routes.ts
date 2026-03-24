@@ -68,5 +68,6 @@ router.post('/change-password', async (req: any, res) => {
 
   res.json({ message: 'Password updated successfully.' });
 });
-
+console.log(admin);
+console.log(error);
 export default router;
