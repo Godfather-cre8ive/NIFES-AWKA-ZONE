@@ -32,7 +32,6 @@ import newsletterRoutes from './routes/newsletter.routes';
 import prayerRoutes from './routes/prayer.routes';
 import settingsRoutes from './routes/settings.routes';
 import nacfRoutes from './routes/nacf.routes';
-import setupRoutes from './routes/setup.routes';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
